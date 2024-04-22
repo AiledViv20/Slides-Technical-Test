@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex flex-col h-screen">
       <div className="flex justify-end">
         <div className="w-full flex justify-end pr-4 pt-4">
-          <Image src="/icon_menu.svg" width={40} height={40} alt="icon menu" />
+          <Image className="lg:xl:w-10 w-8" src="/icon_menu.svg" width={40} height={40} alt="icon menu" />
         </div>
       </div>
       <div className="grid grid-cols-6 h-screen">
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <div className="col-span-6 flex justify-center items-center mb-2">
           <div>
-            <Image src="/icon_arrow_up.svg" width={40} height={40} alt="icon menu" />
+            <Image className="lg:xl:w-10 w-8" src="/icon_arrow_up.svg" width={40} height={40} alt="icon arrow" />
           </div>
         </div>
       </div>
